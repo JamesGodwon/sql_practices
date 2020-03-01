@@ -1,0 +1,5 @@
+SELECT [ROL_ID],[USR_ID],[BRNO],[STAFF]
+  
+FROM [chb_pub].[dbo].[EMPLOYEE], [CHBSC].[dbo].[SC_ROL_USR]
+
+WHERE ROL_ID LIKE '%upload%' AND BRNO LIKE '3041' --AND STAFF = '146768'--AND 
